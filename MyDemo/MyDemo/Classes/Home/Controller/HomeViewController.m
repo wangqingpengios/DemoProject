@@ -7,18 +7,29 @@
 //
 
 #import "HomeViewController.h"
+#import "HomeTableViewCell.h"
+#import "HomeModel.h"
+#import "HomeView.h"
 
 static NSString * cellID = @"cellID";
 
-@interface HomeViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface HomeViewController ()
 
 @property (nonatomic, strong) UITableView *tableView;
+
+@property (nonatomic, strong) NSArray *titleArray;
+
+@property (nonatomic, strong) NSMutableArray *dataArray;
+
+@property (nonatomic, strong) HomeView *homeView;
+
 
 @end
 
 @implementation HomeViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     
     [self setupUI];
@@ -28,37 +39,38 @@ static NSString * cellID = @"cellID";
 #pragma mark - 设置界面
 - (void)setupUI {
     
-    self.tableView.hidden = NO;
+    
+    self.homeView.hidden = NO;
+    
+    _homeView.selectBlock = ^(UITableView *tableView, NSIndexPath *indexPath, NSArray *dataArray, NSInteger index) {
+        NSLog(@"%zd",index);
+    };
     
 }
 
-#pragma mark - DataSource & Delegate
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 10;
-}
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:cellID forIndexPath:indexPath];
+#pragma mark - getters & setters
+- (HomeView *)homeView {
     
-    
-        cell.textLabel.text =  [NSString stringWithFormat:@"%zd-%zd",indexPath.section,indexPath.row];
+    if (!_homeView) {
         
-    
-    return cell;
-}
-
-- (UITableView *)tableView {
-    if (!_tableView) {
-        self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height - 48) style:UITableViewStylePlain];
-        [self.view addSubview:self.tableView];
-        self.tableView.delegate = self;
-        self.tableView.dataSource = self;
-        self.tableView.tableFooterView = [UIView new];
-        [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:cellID];
+//        _homeView = [[HomeView alloc] initWithFrame:self.view.frame withSelectRowBlock:^(UITableView *tableView, NSIndexPath *indexPath, NSArray *dataArray) {
+//        }];
+        
+        _homeView = [[HomeView alloc] initWithFrame:self.view.bounds withSelectRowBlock:^(UITableView *tableView, NSIndexPath *indexPath, NSArray *dataArray, NSInteger index) {
+            
+            
+            
+        }];
+        
+        
+        
+        
+        
+        [self.view addSubview:_homeView];
+        
     }
-    return _tableView;
+
+    return _homeView;
 }
-
-
 
 @end

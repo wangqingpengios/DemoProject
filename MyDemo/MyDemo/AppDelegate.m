@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MainTabBarController.h"
-
+#import "DemoVC1.h"
 @interface AppDelegate ()
 
 @end
@@ -17,11 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     MainTabBarController * tabVC = [[MainTabBarController alloc]init];
     self.window.rootViewController = tabVC;
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

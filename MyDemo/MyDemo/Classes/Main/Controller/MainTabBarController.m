@@ -9,6 +9,10 @@
 #import "MainTabBarController.h"
 #import "HomeViewController.h"
 
+#import "NBBIndicator.h"
+#import "DemoVC1.h"
+
+
 @interface MainTabBarController ()
 
 @end
@@ -35,6 +39,13 @@
     [vcs addObject:[self addChildViewControllerWithClassName:[UIViewController class] vcTitle:@"自己项目Demo" withTabBarItemTitle:@"我" withTabBarItemImage:@"tabbar_profile" withTabBarItemSelectedImage:@"tabbar_profile_selected"]];
     
     self.viewControllers = vcs.copy;
+
+    dispatch_async(dispatch_get_main_queue(), ^{
+        NBBIndicator * indicator = [NBBIndicator sharedIndicator];
+        indicator.totalCount = 0;
+        [self.tabBar addSubview:indicator];
+        [self.tabBar bringSubviewToFront:indicator];
+    });
 }
 
 
