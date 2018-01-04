@@ -52,24 +52,10 @@ static NSString * cellID = @"cellID";
 - (HomeView *)homeView {
     
     if (!_homeView) {
-        
-//        _homeView = [[HomeView alloc] initWithFrame:self.view.frame withSelectRowBlock:^(UITableView *tableView, NSIndexPath *indexPath, NSArray *dataArray) {
-//        }];
-        
         _homeView = [[HomeView alloc] initWithFrame:self.view.bounds withSelectRowBlock:^(UITableView *tableView, NSIndexPath *indexPath, NSArray *dataArray, NSInteger index) {
-            
-            
-            
         }];
-        
-        
-        
-        
-        
         [self.view addSubview:_homeView];
-        
     }
-
     return _homeView;
 }
 
