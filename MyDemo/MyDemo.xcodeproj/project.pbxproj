@@ -65,15 +65,15 @@
 		F4B36BD81FFDD5C40053DEEF /* BAAlert.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F4B36BCD1FFDD5C40053DEEF /* BAAlert.bundle */; };
 		F4B36BD91FFDD5C40053DEEF /* BAAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36BCF1FFDD5C40053DEEF /* BAAlert.m */; };
 		F4B36BDA1FFDD5C40053DEEF /* UIView+BAAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36BD51FFDD5C40053DEEF /* UIView+BAAnimation.m */; };
-		F4B36BF11FFDD6630053DEEF /* EmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36BDD1FFDD6630053DEEF /* EmptyView.m */; };
-		F4B36BF21FFDD6630053DEEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B36BDE1FFDD6630053DEEF /* Main.storyboard */; };
-		F4B36BF31FFDD6630053DEEF /* MembersFilmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36BE01FFDD6630053DEEF /* MembersFilmViewController.m */; };
-		F4B36BF41FFDD6630053DEEF /* SegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36BE21FFDD6630053DEEF /* SegmentViewController.m */; };
-		F4B36BF51FFDD6630053DEEF /* VideoPurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36BE41FFDD6630053DEEF /* VideoPurchaseViewController.m */; };
-		F4B36BF61FFDD6630053DEEF /* WCLRecordProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36BE71FFDD6630053DEEF /* WCLRecordProgressView.m */; };
-		F4B36BF71FFDD6630053DEEF /* WCLRecordEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36BEB1FFDD6630053DEEF /* WCLRecordEncoder.m */; };
-		F4B36BF81FFDD6630053DEEF /* WCLRecordEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36BEE1FFDD6630053DEEF /* WCLRecordEngine.m */; };
-		F4B36BF91FFDD6630053DEEF /* WCLRecordVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36BF01FFDD6630053DEEF /* WCLRecordVideoVC.m */; };
+		F4B36C0D1FFDD79A0053DEEF /* VideoPurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36BFB1FFDD7990053DEEF /* VideoPurchaseViewController.m */; };
+		F4B36C0E1FFDD79A0053DEEF /* WCLRecordEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36C001FFDD79A0053DEEF /* WCLRecordEncoder.m */; };
+		F4B36C0F1FFDD79A0053DEEF /* WCLRecordEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36C031FFDD79A0053DEEF /* WCLRecordEngine.m */; };
+		F4B36C101FFDD79A0053DEEF /* MembersFilmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36C041FFDD79A0053DEEF /* MembersFilmViewController.m */; };
+		F4B36C111FFDD79A0053DEEF /* WCLRecordVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36C061FFDD79A0053DEEF /* WCLRecordVideoVC.m */; };
+		F4B36C121FFDD79A0053DEEF /* SegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36C081FFDD79A0053DEEF /* SegmentViewController.m */; };
+		F4B36C131FFDD79A0053DEEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B36C091FFDD79A0053DEEF /* Main.storyboard */; };
+		F4B36C141FFDD79A0053DEEF /* WCLRecordProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36C0C1FFDD79A0053DEEF /* WCLRecordProgressView.m */; };
+		F4B36C171FFDD8020053DEEF /* EmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36C161FFDD8020053DEEF /* EmptyView.m */; };
 		F4D5ABF61F344D5A00534637 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D5ABF51F344D5A00534637 /* HomeTableViewCell.m */; };
 		F4D5ABF91F34554900534637 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D5ABF81F34554900534637 /* HomeModel.m */; };
 		F4EB0FED1F5CF10F00146FD1 /* NBBIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EB0FEC1F5CF10F00146FD1 /* NBBIndicator.m */; };
@@ -213,23 +213,23 @@
 		F4B36BD31FFDD5C40053DEEF /* BAKit_ConfigurationDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAKit_ConfigurationDefine.h; sourceTree = "<group>"; };
 		F4B36BD41FFDD5C40053DEEF /* UIView+BAAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BAAnimation.h"; sourceTree = "<group>"; };
 		F4B36BD51FFDD5C40053DEEF /* UIView+BAAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BAAnimation.m"; sourceTree = "<group>"; };
-		F4B36BDC1FFDD6630053DEEF /* EmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyView.h; sourceTree = "<group>"; };
-		F4B36BDD1FFDD6630053DEEF /* EmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyView.m; sourceTree = "<group>"; };
-		F4B36BDE1FFDD6630053DEEF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		F4B36BDF1FFDD6630053DEEF /* MembersFilmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MembersFilmViewController.h; sourceTree = "<group>"; };
-		F4B36BE01FFDD6630053DEEF /* MembersFilmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MembersFilmViewController.m; sourceTree = "<group>"; };
-		F4B36BE11FFDD6630053DEEF /* SegmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentViewController.h; sourceTree = "<group>"; };
-		F4B36BE21FFDD6630053DEEF /* SegmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentViewController.m; sourceTree = "<group>"; };
-		F4B36BE31FFDD6630053DEEF /* VideoPurchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPurchaseViewController.h; sourceTree = "<group>"; };
-		F4B36BE41FFDD6630053DEEF /* VideoPurchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPurchaseViewController.m; sourceTree = "<group>"; };
-		F4B36BE61FFDD6630053DEEF /* WCLRecordProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLRecordProgressView.h; sourceTree = "<group>"; };
-		F4B36BE71FFDD6630053DEEF /* WCLRecordProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLRecordProgressView.m; sourceTree = "<group>"; };
-		F4B36BEA1FFDD6630053DEEF /* WCLRecordEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLRecordEncoder.h; sourceTree = "<group>"; };
-		F4B36BEB1FFDD6630053DEEF /* WCLRecordEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLRecordEncoder.m; sourceTree = "<group>"; };
-		F4B36BED1FFDD6630053DEEF /* WCLRecordEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLRecordEngine.h; sourceTree = "<group>"; };
-		F4B36BEE1FFDD6630053DEEF /* WCLRecordEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLRecordEngine.m; sourceTree = "<group>"; };
-		F4B36BEF1FFDD6630053DEEF /* WCLRecordVideoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLRecordVideoVC.h; sourceTree = "<group>"; };
-		F4B36BF01FFDD6630053DEEF /* WCLRecordVideoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLRecordVideoVC.m; sourceTree = "<group>"; };
+		F4B36BFA1FFDD7990053DEEF /* WCLRecordVideoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLRecordVideoVC.h; sourceTree = "<group>"; };
+		F4B36BFB1FFDD7990053DEEF /* VideoPurchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPurchaseViewController.m; sourceTree = "<group>"; };
+		F4B36BFC1FFDD7990053DEEF /* MembersFilmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MembersFilmViewController.h; sourceTree = "<group>"; };
+		F4B36BFF1FFDD79A0053DEEF /* WCLRecordEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLRecordEncoder.h; sourceTree = "<group>"; };
+		F4B36C001FFDD79A0053DEEF /* WCLRecordEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLRecordEncoder.m; sourceTree = "<group>"; };
+		F4B36C021FFDD79A0053DEEF /* WCLRecordEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLRecordEngine.h; sourceTree = "<group>"; };
+		F4B36C031FFDD79A0053DEEF /* WCLRecordEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLRecordEngine.m; sourceTree = "<group>"; };
+		F4B36C041FFDD79A0053DEEF /* MembersFilmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MembersFilmViewController.m; sourceTree = "<group>"; };
+		F4B36C051FFDD79A0053DEEF /* VideoPurchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPurchaseViewController.h; sourceTree = "<group>"; };
+		F4B36C061FFDD79A0053DEEF /* WCLRecordVideoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLRecordVideoVC.m; sourceTree = "<group>"; };
+		F4B36C071FFDD79A0053DEEF /* SegmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentViewController.h; sourceTree = "<group>"; };
+		F4B36C081FFDD79A0053DEEF /* SegmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentViewController.m; sourceTree = "<group>"; };
+		F4B36C091FFDD79A0053DEEF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F4B36C0B1FFDD79A0053DEEF /* WCLRecordProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLRecordProgressView.h; sourceTree = "<group>"; };
+		F4B36C0C1FFDD79A0053DEEF /* WCLRecordProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLRecordProgressView.m; sourceTree = "<group>"; };
+		F4B36C151FFDD8020053DEEF /* EmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyView.h; sourceTree = "<group>"; };
+		F4B36C161FFDD8020053DEEF /* EmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyView.m; sourceTree = "<group>"; };
 		F4D5ABF31F34476100534637 /* Demo.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo.pch; sourceTree = "<group>"; };
 		F4D5ABF41F344D5A00534637 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeTableViewCell.h; path = MyDemo/Classes/Home/View/HomeTableViewCell.h; sourceTree = SOURCE_ROOT; };
 		F4D5ABF51F344D5A00534637 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeTableViewCell.m; path = MyDemo/Classes/Home/View/HomeTableViewCell.m; sourceTree = SOURCE_ROOT; };
@@ -794,57 +794,57 @@
 		F4B36BDB1FFDD6630053DEEF /* MemberFilm */ = {
 			isa = PBXGroup;
 			children = (
-				F4B36BDC1FFDD6630053DEEF /* EmptyView.h */,
-				F4B36BDD1FFDD6630053DEEF /* EmptyView.m */,
-				F4B36BDF1FFDD6630053DEEF /* MembersFilmViewController.h */,
-				F4B36BE01FFDD6630053DEEF /* MembersFilmViewController.m */,
-				F4B36BE11FFDD6630053DEEF /* SegmentViewController.h */,
-				F4B36BE21FFDD6630053DEEF /* SegmentViewController.m */,
-				F4B36BE31FFDD6630053DEEF /* VideoPurchaseViewController.h */,
-				F4B36BE41FFDD6630053DEEF /* VideoPurchaseViewController.m */,
-				F4B36BE51FFDD6630053DEEF /* WCLRecordProgressView */,
-				F4B36BE81FFDD6630053DEEF /* WCLRecordVideo */,
-				F4B36BEF1FFDD6630053DEEF /* WCLRecordVideoVC.h */,
-				F4B36BF01FFDD6630053DEEF /* WCLRecordVideoVC.m */,
-				F4B36BDE1FFDD6630053DEEF /* Main.storyboard */,
+				F4B36C151FFDD8020053DEEF /* EmptyView.h */,
+				F4B36C161FFDD8020053DEEF /* EmptyView.m */,
+				F4B36C091FFDD79A0053DEEF /* Main.storyboard */,
+				F4B36BFC1FFDD7990053DEEF /* MembersFilmViewController.h */,
+				F4B36C041FFDD79A0053DEEF /* MembersFilmViewController.m */,
+				F4B36C071FFDD79A0053DEEF /* SegmentViewController.h */,
+				F4B36C081FFDD79A0053DEEF /* SegmentViewController.m */,
+				F4B36C051FFDD79A0053DEEF /* VideoPurchaseViewController.h */,
+				F4B36BFB1FFDD7990053DEEF /* VideoPurchaseViewController.m */,
+				F4B36C0A1FFDD79A0053DEEF /* WCLRecordProgressView */,
+				F4B36BFD1FFDD79A0053DEEF /* WCLRecordVideo */,
+				F4B36BFA1FFDD7990053DEEF /* WCLRecordVideoVC.h */,
+				F4B36C061FFDD79A0053DEEF /* WCLRecordVideoVC.m */,
 			);
 			path = MemberFilm;
 			sourceTree = "<group>";
 		};
-		F4B36BE51FFDD6630053DEEF /* WCLRecordProgressView */ = {
+		F4B36BFD1FFDD79A0053DEEF /* WCLRecordVideo */ = {
 			isa = PBXGroup;
 			children = (
-				F4B36BE61FFDD6630053DEEF /* WCLRecordProgressView.h */,
-				F4B36BE71FFDD6630053DEEF /* WCLRecordProgressView.m */,
-			);
-			path = WCLRecordProgressView;
-			sourceTree = "<group>";
-		};
-		F4B36BE81FFDD6630053DEEF /* WCLRecordVideo */ = {
-			isa = PBXGroup;
-			children = (
-				F4B36BE91FFDD6630053DEEF /* WCLRecordEncoder */,
-				F4B36BEC1FFDD6630053DEEF /* WCLRecordEngine */,
+				F4B36BFE1FFDD79A0053DEEF /* WCLRecordEncoder */,
+				F4B36C011FFDD79A0053DEEF /* WCLRecordEngine */,
 			);
 			path = WCLRecordVideo;
 			sourceTree = "<group>";
 		};
-		F4B36BE91FFDD6630053DEEF /* WCLRecordEncoder */ = {
+		F4B36BFE1FFDD79A0053DEEF /* WCLRecordEncoder */ = {
 			isa = PBXGroup;
 			children = (
-				F4B36BEA1FFDD6630053DEEF /* WCLRecordEncoder.h */,
-				F4B36BEB1FFDD6630053DEEF /* WCLRecordEncoder.m */,
+				F4B36BFF1FFDD79A0053DEEF /* WCLRecordEncoder.h */,
+				F4B36C001FFDD79A0053DEEF /* WCLRecordEncoder.m */,
 			);
 			path = WCLRecordEncoder;
 			sourceTree = "<group>";
 		};
-		F4B36BEC1FFDD6630053DEEF /* WCLRecordEngine */ = {
+		F4B36C011FFDD79A0053DEEF /* WCLRecordEngine */ = {
 			isa = PBXGroup;
 			children = (
-				F4B36BED1FFDD6630053DEEF /* WCLRecordEngine.h */,
-				F4B36BEE1FFDD6630053DEEF /* WCLRecordEngine.m */,
+				F4B36C021FFDD79A0053DEEF /* WCLRecordEngine.h */,
+				F4B36C031FFDD79A0053DEEF /* WCLRecordEngine.m */,
 			);
 			path = WCLRecordEngine;
+			sourceTree = "<group>";
+		};
+		F4B36C0A1FFDD79A0053DEEF /* WCLRecordProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				F4B36C0B1FFDD79A0053DEEF /* WCLRecordProgressView.h */,
+				F4B36C0C1FFDD79A0053DEEF /* WCLRecordProgressView.m */,
+			);
+			path = WCLRecordProgressView;
 			sourceTree = "<group>";
 		};
 		F4D5ABEC1F3414D700534637 /* Tools */ = {
@@ -965,7 +965,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F442E8831F15AD3200FDEEEF /* LaunchScreen.storyboard in Resources */,
-				F4B36BF21FFDD6630053DEEF /* Main.storyboard in Resources */,
+				F4B36C131FFDD79A0053DEEF /* Main.storyboard in Resources */,
 				F4B36BD81FFDD5C40053DEEF /* BAAlert.bundle in Resources */,
 				F442E8801F15AD3200FDEEEF /* Assets.xcassets in Resources */,
 				F46F7A811FC2A000009C951D /* 樱花树3.jpg in Resources */,
@@ -1081,45 +1081,44 @@
 			files = (
 				F442E8781F15AD3200FDEEEF /* AppDelegate.m in Sources */,
 				F47791EC1FFC6C54002E24D4 /* SSSearchBar.m in Sources */,
-				F4B36BF91FFDD6630053DEEF /* WCLRecordVideoVC.m in Sources */,
 				F41073C41F50047B005BD980 /* NSAttributedString+Additions.m in Sources */,
 				F442E8751F15AD3200FDEEEF /* main.m in Sources */,
-				F4B36BF31FFDD6630053DEEF /* MembersFilmViewController.m in Sources */,
-				F4B36BF81FFDD6630053DEEF /* WCLRecordEngine.m in Sources */,
 				F47275581F53F97C0069322F /* DemoVC2.m in Sources */,
 				F4B36BC61FFDD4B40053DEEF /* RuralTourismViewController.m in Sources */,
 				F41073CA1F502786005BD980 /* UIButton+Additions.m in Sources */,
 				F430CB331F55354F0097AEB2 /* DemoVC3.m in Sources */,
 				F47791E91FFC6C54002E24D4 /* NHInFoViewController.m in Sources */,
-				F4B36BF71FFDD6630053DEEF /* WCLRecordEncoder.m in Sources */,
 				F42473D21F58F4D5009D0EBE /* BaseNetManger.m in Sources */,
-				F4B36BF41FFDD6630053DEEF /* SegmentViewController.m in Sources */,
 				F4B36BD61FFDD5C40053DEEF /* BAActionSheet.m in Sources */,
 				F430EA111F51198C003873DD /* UITableView+Additions.m in Sources */,
 				F431B9E71FEDFBF9003EDF8C /* ViewController.m in Sources */,
 				F41073C71F500A3F005BD980 /* UIViewController+AddChildVC.m in Sources */,
 				F4B36BDA1FFDD5C40053DEEF /* UIView+BAAnimation.m in Sources */,
 				F4B36BC21FFDD4B40053DEEF /* RuralAllViewController.m in Sources */,
+				F4B36C171FFDD8020053DEEF /* EmptyView.m in Sources */,
+				F4B36C0F1FFDD79A0053DEEF /* WCLRecordEngine.m in Sources */,
 				F47791EB1FFC6C54002E24D4 /* NHRightTableViewCell.m in Sources */,
 				F4B36BD71FFDD5C40053DEEF /* BAActionSheetCell.m in Sources */,
 				F4B36BC71FFDD4B40053DEEF /* TagView.m in Sources */,
 				F41073C11F500086005BD980 /* NSObject+Additions.m in Sources */,
-				F4B36BF61FFDD6630053DEEF /* WCLRecordProgressView.m in Sources */,
 				F47FB78D1F56B51600D1C350 /* FilterView.m in Sources */,
+				F4B36C141FFDD79A0053DEEF /* WCLRecordProgressView.m in Sources */,
 				F4F7916C1F57EEF900D82F84 /* RightController.m in Sources */,
 				F41073B91F4FFFA9005BD980 /* UIColor+Additions.m in Sources */,
 				F47275741F53FA330069322F /* NBBHomeHeadSectionView.m in Sources */,
 				F47791EA1FFC6C54002E24D4 /* NHLeftTableViewCell.m in Sources */,
+				F4B36C121FFDD79A0053DEEF /* SegmentViewController.m in Sources */,
 				F4F791691F57B5F200D82F84 /* ListViewCell.m in Sources */,
 				F47275711F53FA330069322F /* DemoVC1.m in Sources */,
-				F4B36BF51FFDD6630053DEEF /* VideoPurchaseViewController.m in Sources */,
 				F4D5ABF91F34554900534637 /* HomeModel.m in Sources */,
+				F4B36C0E1FFDD79A0053DEEF /* WCLRecordEncoder.m in Sources */,
 				F47791E81FFC6C54002E24D4 /* HNInFoHeadView.m in Sources */,
 				F42473D51F59020A009D0EBE /* DemoVCMager.m in Sources */,
 				F4B36BD91FFDD5C40053DEEF /* BAAlert.m in Sources */,
 				F478574D1F5F8DA200D05F34 /* BaseModel.m in Sources */,
 				F47275721F53FA330069322F /* ContentShowView.m in Sources */,
 				F41073BE1F4FFFCF005BD980 /* NSArray+Additions.m in Sources */,
+				F4B36C111FFDD79A0053DEEF /* WCLRecordVideoVC.m in Sources */,
 				F47275701F53FA330069322F /* NBBSingleProductCell.m in Sources */,
 				F4B36BC31FFDD4B40053DEEF /* RuralCategoryView.m in Sources */,
 				F47275731F53FA330069322F /* NBBActionControl.m in Sources */,
@@ -1132,14 +1131,15 @@
 				F472756E1F53FA330069322F /* NBBSingleContentShowViewCell.m in Sources */,
 				F41073BB1F4FFFA9005BD980 /* UIView+FrameAdditions.m in Sources */,
 				F41073CD1F502F83005BD980 /* UILabel+Additions.m in Sources */,
+				F4B36C101FFDD79A0053DEEF /* MembersFilmViewController.m in Sources */,
 				F4D5ABF61F344D5A00534637 /* HomeTableViewCell.m in Sources */,
 				F47275751F53FA330069322F /* NBBSingleContentShowView.m in Sources */,
 				F456E20B1F1745F200044F5C /* MainTabBarController.m in Sources */,
 				F4B36BC41FFDD4B40053DEEF /* RuralSearchViewController.m in Sources */,
-				F4B36BF11FFDD6630053DEEF /* EmptyView.m in Sources */,
 				F41073BA1F4FFFA9005BD980 /* UIView+Additions.m in Sources */,
 				F47791ED1FFC6C54002E24D4 /* UIImage+Tool.m in Sources */,
 				F47FB7901F56BD3900D1C350 /* ListView.m in Sources */,
+				F4B36C0D1FFDD79A0053DEEF /* VideoPurchaseViewController.m in Sources */,
 				F4B36BC51FFDD4B40053DEEF /* RuralThemeViewController.m in Sources */,
 				F42444721F189F1F00F59E21 /* HomeViewController.m in Sources */,
 				F4B36BC11FFDD4B40053DEEF /* RurakThemeTableViewCell.m in Sources */,
