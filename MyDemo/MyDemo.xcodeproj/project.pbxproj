@@ -60,6 +60,12 @@
 		F47DA8F0200357CF002128CC /* AcTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47DA8E9200357CF002128CC /* AcTwoViewController.m */; };
 		F47FB78D1F56B51600D1C350 /* FilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F47FB78C1F56B51600D1C350 /* FilterView.m */; };
 		F47FB7901F56BD3900D1C350 /* ListView.m in Sources */ = {isa = PBXBuildFile; fileRef = F47FB78F1F56BD3900D1C350 /* ListView.m */; };
+		F491454F200457A3008A888D /* NewPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F491454E200457A3008A888D /* NewPlayViewController.m */; };
+		F491455A20046195008A888D /* FastForwardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F491455320046195008A888D /* FastForwardView.m */; };
+		F491455B20046195008A888D /* FastForwardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F491455420046195008A888D /* FastForwardView.xib */; };
+		F491455C20046195008A888D /* WMLightView.m in Sources */ = {isa = PBXBuildFile; fileRef = F491455620046195008A888D /* WMLightView.m */; };
+		F491455D20046195008A888D /* WMPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F491455720046195008A888D /* WMPlayer.bundle */; };
+		F491455E20046195008A888D /* WMPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F491455920046195008A888D /* WMPlayer.m */; };
 		F4B36BC11FFDD4B40053DEEF /* RurakThemeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36BB41FFDD4B30053DEEF /* RurakThemeTableViewCell.m */; };
 		F4B36BC21FFDD4B40053DEEF /* RuralAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36BB61FFDD4B30053DEEF /* RuralAllViewController.m */; };
 		F4B36BC31FFDD4B40053DEEF /* RuralCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36BB81FFDD4B30053DEEF /* RuralCategoryView.m */; };
@@ -207,6 +213,16 @@
 		F47FB78C1F56B51600D1C350 /* FilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterView.m; sourceTree = "<group>"; };
 		F47FB78E1F56BD3900D1C350 /* ListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListView.h; sourceTree = "<group>"; };
 		F47FB78F1F56BD3900D1C350 /* ListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListView.m; sourceTree = "<group>"; };
+		F491454D200457A3008A888D /* NewPlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewPlayViewController.h; sourceTree = "<group>"; };
+		F491454E200457A3008A888D /* NewPlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewPlayViewController.m; sourceTree = "<group>"; };
+		F491455220046195008A888D /* FastForwardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastForwardView.h; sourceTree = "<group>"; };
+		F491455320046195008A888D /* FastForwardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastForwardView.m; sourceTree = "<group>"; };
+		F491455420046195008A888D /* FastForwardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FastForwardView.xib; sourceTree = "<group>"; };
+		F491455520046195008A888D /* WMLightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMLightView.h; sourceTree = "<group>"; };
+		F491455620046195008A888D /* WMLightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMLightView.m; sourceTree = "<group>"; };
+		F491455720046195008A888D /* WMPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WMPlayer.bundle; sourceTree = "<group>"; };
+		F491455820046195008A888D /* WMPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPlayer.h; sourceTree = "<group>"; };
+		F491455920046195008A888D /* WMPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPlayer.m; sourceTree = "<group>"; };
 		F4B36BB31FFDD4B30053DEEF /* RurakThemeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RurakThemeTableViewCell.h; sourceTree = "<group>"; };
 		F4B36BB41FFDD4B30053DEEF /* RurakThemeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RurakThemeTableViewCell.m; sourceTree = "<group>"; };
 		F4B36BB51FFDD4B30053DEEF /* RuralAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuralAllViewController.h; sourceTree = "<group>"; };
@@ -630,6 +646,7 @@
 		F46F75551F3BED4800D02289 /* DemoVC4 */ = {
 			isa = PBXGroup;
 			children = (
+				F491455020046195008A888D /* WMPlayer */,
 				F46F7A821FC2A162009C951D /* Controller */,
 				F46F7A841FC2A162009C951D /* Model */,
 				F46F7A831FC2A162009C951D /* View */,
@@ -682,6 +699,8 @@
 				F47791DB1FFC6C54002E24D4 /* NHInfoVC */,
 				F46F7A851FC2A17A009C951D /* DemoVC4.h */,
 				F46F7A861FC2A17A009C951D /* DemoVC4.m */,
+				F491454D200457A3008A888D /* NewPlayViewController.h */,
+				F491454E200457A3008A888D /* NewPlayViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -798,6 +817,29 @@
 			children = (
 			);
 			path = Food;
+			sourceTree = "<group>";
+		};
+		F491455020046195008A888D /* WMPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F491455120046195008A888D /* View */,
+				F491455720046195008A888D /* WMPlayer.bundle */,
+				F491455820046195008A888D /* WMPlayer.h */,
+				F491455920046195008A888D /* WMPlayer.m */,
+			);
+			path = WMPlayer;
+			sourceTree = "<group>";
+		};
+		F491455120046195008A888D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F491455220046195008A888D /* FastForwardView.h */,
+				F491455320046195008A888D /* FastForwardView.m */,
+				F491455420046195008A888D /* FastForwardView.xib */,
+				F491455520046195008A888D /* WMLightView.h */,
+				F491455620046195008A888D /* WMLightView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		F4A9DEA82000BAB000850B12 /* Accommodation */ = {
@@ -1025,9 +1067,11 @@
 			files = (
 				F442E8831F15AD3200FDEEEF /* LaunchScreen.storyboard in Resources */,
 				F4B36C131FFDD79A0053DEEF /* Main.storyboard in Resources */,
+				F491455B20046195008A888D /* FastForwardView.xib in Resources */,
 				F4B36BD81FFDD5C40053DEEF /* BAAlert.bundle in Resources */,
 				F442E8801F15AD3200FDEEEF /* Assets.xcassets in Resources */,
 				F46F7A811FC2A000009C951D /* 樱花树3.jpg in Resources */,
+				F491455D20046195008A888D /* WMPlayer.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1147,6 +1191,9 @@
 				F47275581F53F97C0069322F /* DemoVC2.m in Sources */,
 				F4B36BC61FFDD4B40053DEEF /* RuralTourismViewController.m in Sources */,
 				F41073CA1F502786005BD980 /* UIButton+Additions.m in Sources */,
+				F491455C20046195008A888D /* WMLightView.m in Sources */,
+				F491454F200457A3008A888D /* NewPlayViewController.m in Sources */,
+				F491455E20046195008A888D /* WMPlayer.m in Sources */,
 				F430CB331F55354F0097AEB2 /* DemoVC3.m in Sources */,
 				F47791E91FFC6C54002E24D4 /* NHInFoViewController.m in Sources */,
 				F42473D21F58F4D5009D0EBE /* BaseNetManger.m in Sources */,
@@ -1165,6 +1212,7 @@
 				F4B36BC71FFDD4B40053DEEF /* TagView.m in Sources */,
 				F47DA8EC200357CF002128CC /* AcFoodViewController.m in Sources */,
 				F41073C11F500086005BD980 /* NSObject+Additions.m in Sources */,
+				F491455A20046195008A888D /* FastForwardView.m in Sources */,
 				F47FB78D1F56B51600D1C350 /* FilterView.m in Sources */,
 				F4B36C141FFDD79A0053DEEF /* WCLRecordProgressView.m in Sources */,
 				F4F7916C1F57EEF900D82F84 /* RightController.m in Sources */,

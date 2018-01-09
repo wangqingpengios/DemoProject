@@ -37,6 +37,9 @@ PODS:
   - UMengUShare/Network (6.4.4)
   - UMengUShare/UI (6.4.4):
     - UMengUShare/Core
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
@@ -56,6 +59,7 @@ DEPENDENCIES:
   - SDAutoLayout
   - SDWebImage
   - UMengUShare/UI
+  - YYKit
   - YYModel
 
 SPEC CHECKSUMS:
@@ -75,8 +79,9 @@ SPEC CHECKSUMS:
   SDAutoLayout: 5a4b48d6b8a5172ae8d088d2879e40dd795e6251
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   UMengUShare: cd54ae52958426b79aa9193a7b02058d6a6d9aa0
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 4b4e5a7e834feef07a04200376258feb6efa5cdb
+PODFILE CHECKSUM: 04df161ff0522f2ba350b5e1220aa499768a0748
 
 COCOAPODS: 1.2.0

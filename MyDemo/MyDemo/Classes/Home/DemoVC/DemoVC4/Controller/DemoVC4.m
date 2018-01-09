@@ -12,6 +12,8 @@
 #import "SegmentViewController.h"
 #import "VideoPurchaseViewController.h"
 #import "AccomViewController.h"
+#import "NewPlayViewController.h"
+
 @interface DemoVC4 ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSArray *dataArray;
@@ -85,6 +87,11 @@
             [self.navigationController pushViewController:[AccomViewController new] animated:YES];
         }
             break;
+        case 5:
+        {
+            [self.navigationController pushViewController:[NewPlayViewController new] animated:YES];
+        }
+            break;
     }
 }
 #pragma mark - Getter & Setter
@@ -102,7 +109,7 @@
 }
 - (NSArray *)dataArray {
     if (!_dataArray) {
-        NSArray * arr = @[@"农户信息",@"农村旅游",@"会员随拍",@"测试",@"农村食宿"];
+        NSArray * arr = @[@"农户信息",@"农村旅游",@"会员随拍",@"测试",@"农村食宿",@"WMPlayer"];
         _dataArray = [NSArray arrayWithArray:arr];
     }
     return _dataArray;

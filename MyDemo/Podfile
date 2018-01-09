@@ -83,7 +83,7 @@ target 'MyDemo' do
     pod 'MyLayout'
 
     # 各种封装的集合！大神的多年积累！
-#    pod 'YYKit'
+    pod 'YYKit'
 
     # 内存泄露检测工具
    #  pod 'MLeaksFinder'
