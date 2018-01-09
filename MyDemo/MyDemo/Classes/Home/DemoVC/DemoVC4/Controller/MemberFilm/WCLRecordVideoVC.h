@@ -12,4 +12,5 @@
 @end
 @interface WCLRecordVideoVC :UIViewController
 @property(nonatomic,weak)id<WCLRecordVideoVCDelegate> delegate;
+@property (nonatomic, strong) NSArray *fileArray;
 @end

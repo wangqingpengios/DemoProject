@@ -101,7 +101,7 @@
         [self.scrollView addSubview:contentView];
         [contentView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.equalTo(_scrollView);
-            make.width.mas_equalTo(_scrollView).multipliedBy(3);
+            make.width.mas_equalTo(_scrollView).multipliedBy(2);
             make.height.mas_equalTo(_scrollView);
         }];
         //控制器数组

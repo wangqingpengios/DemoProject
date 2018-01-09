@@ -68,4 +68,5 @@
 - (void)changeMovToMp4:(NSURL *)mediaURL dataBlock:(void (^)(UIImage *movieImage))handler;
 //获取视频完整沙盒地址
 - (NSString *)getVideoCacheAllPath:(NSString*)fileName;
+- (void)movieToImageHandler:(void (^)(UIImage *movieImage))handler;
 @end

@@ -51,6 +51,13 @@
 		F47791ED1FFC6C54002E24D4 /* UIImage+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = F47791E71FFC6C54002E24D4 /* UIImage+Tool.m */; };
 		F478574D1F5F8DA200D05F34 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F478574C1F5F8DA200D05F34 /* BaseModel.m */; };
 		F47857501F5F8F6700D05F34 /* DemoVCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F478574F1F5F8F6700D05F34 /* DemoVCModel.m */; };
+		F47DA8EA200357CF002128CC /* AccomentCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = F47DA8DD200357CF002128CC /* AccomentCategoryView.m */; };
+		F47DA8EB200357CF002128CC /* AccomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47DA8DF200357CF002128CC /* AccomViewController.m */; };
+		F47DA8EC200357CF002128CC /* AcFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47DA8E1200357CF002128CC /* AcFoodViewController.m */; };
+		F47DA8ED200357CF002128CC /* AcLivingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47DA8E3200357CF002128CC /* AcLivingViewController.m */; };
+		F47DA8EE200357CF002128CC /* AcOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47DA8E5200357CF002128CC /* AcOneViewController.m */; };
+		F47DA8EF200357CF002128CC /* AcThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47DA8E7200357CF002128CC /* AcThreeViewController.m */; };
+		F47DA8F0200357CF002128CC /* AcTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47DA8E9200357CF002128CC /* AcTwoViewController.m */; };
 		F47FB78D1F56B51600D1C350 /* FilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F47FB78C1F56B51600D1C350 /* FilterView.m */; };
 		F47FB7901F56BD3900D1C350 /* ListView.m in Sources */ = {isa = PBXBuildFile; fileRef = F47FB78F1F56BD3900D1C350 /* ListView.m */; };
 		F4B36BC11FFDD4B40053DEEF /* RurakThemeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B36BB41FFDD4B30053DEEF /* RurakThemeTableViewCell.m */; };
@@ -182,6 +189,20 @@
 		F478574C1F5F8DA200D05F34 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		F478574E1F5F8F6700D05F34 /* DemoVCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVCModel.h; sourceTree = "<group>"; };
 		F478574F1F5F8F6700D05F34 /* DemoVCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoVCModel.m; sourceTree = "<group>"; };
+		F47DA8DC200357CF002128CC /* AccomentCategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccomentCategoryView.h; sourceTree = "<group>"; };
+		F47DA8DD200357CF002128CC /* AccomentCategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccomentCategoryView.m; sourceTree = "<group>"; };
+		F47DA8DE200357CF002128CC /* AccomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccomViewController.h; sourceTree = "<group>"; };
+		F47DA8DF200357CF002128CC /* AccomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccomViewController.m; sourceTree = "<group>"; };
+		F47DA8E0200357CF002128CC /* AcFoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcFoodViewController.h; sourceTree = "<group>"; };
+		F47DA8E1200357CF002128CC /* AcFoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcFoodViewController.m; sourceTree = "<group>"; };
+		F47DA8E2200357CF002128CC /* AcLivingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcLivingViewController.h; sourceTree = "<group>"; };
+		F47DA8E3200357CF002128CC /* AcLivingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcLivingViewController.m; sourceTree = "<group>"; };
+		F47DA8E4200357CF002128CC /* AcOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcOneViewController.h; sourceTree = "<group>"; };
+		F47DA8E5200357CF002128CC /* AcOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcOneViewController.m; sourceTree = "<group>"; };
+		F47DA8E6200357CF002128CC /* AcThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcThreeViewController.h; sourceTree = "<group>"; };
+		F47DA8E7200357CF002128CC /* AcThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcThreeViewController.m; sourceTree = "<group>"; };
+		F47DA8E8200357CF002128CC /* AcTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcTwoViewController.h; sourceTree = "<group>"; };
+		F47DA8E9200357CF002128CC /* AcTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcTwoViewController.m; sourceTree = "<group>"; };
 		F47FB78B1F56B51600D1C350 /* FilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterView.h; sourceTree = "<group>"; };
 		F47FB78C1F56B51600D1C350 /* FilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterView.m; sourceTree = "<group>"; };
 		F47FB78E1F56BD3900D1C350 /* ListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListView.h; sourceTree = "<group>"; };
@@ -654,6 +675,7 @@
 		F46F7A821FC2A162009C951D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F4A9DEA82000BAB000850B12 /* Accommodation */,
 				F4B36BDB1FFDD6630053DEEF /* MemberFilm */,
 				F4B36BC81FFDD5C40053DEEF /* BAAlert */,
 				F4B36BB21FFDD4B30053DEEF /* RuralTourismVC */,
@@ -750,6 +772,43 @@
 			path = NHInfoVC;
 			sourceTree = "<group>";
 		};
+		F47DA8DB200357CF002128CC /* Living */ = {
+			isa = PBXGroup;
+			children = (
+				F47DA8DC200357CF002128CC /* AccomentCategoryView.h */,
+				F47DA8DD200357CF002128CC /* AccomentCategoryView.m */,
+				F47DA8DE200357CF002128CC /* AccomViewController.h */,
+				F47DA8DF200357CF002128CC /* AccomViewController.m */,
+				F47DA8E0200357CF002128CC /* AcFoodViewController.h */,
+				F47DA8E1200357CF002128CC /* AcFoodViewController.m */,
+				F47DA8E2200357CF002128CC /* AcLivingViewController.h */,
+				F47DA8E3200357CF002128CC /* AcLivingViewController.m */,
+				F47DA8E4200357CF002128CC /* AcOneViewController.h */,
+				F47DA8E5200357CF002128CC /* AcOneViewController.m */,
+				F47DA8E6200357CF002128CC /* AcThreeViewController.h */,
+				F47DA8E7200357CF002128CC /* AcThreeViewController.m */,
+				F47DA8E8200357CF002128CC /* AcTwoViewController.h */,
+				F47DA8E9200357CF002128CC /* AcTwoViewController.m */,
+			);
+			path = Living;
+			sourceTree = "<group>";
+		};
+		F47DA8F1200357E4002128CC /* Food */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		F4A9DEA82000BAB000850B12 /* Accommodation */ = {
+			isa = PBXGroup;
+			children = (
+				F47DA8F1200357E4002128CC /* Food */,
+				F47DA8DB200357CF002128CC /* Living */,
+			);
+			path = Accommodation;
+			sourceTree = "<group>";
+		};
 		F4B36BB21FFDD4B30053DEEF /* RuralTourismVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -794,19 +853,19 @@
 		F4B36BDB1FFDD6630053DEEF /* MemberFilm */ = {
 			isa = PBXGroup;
 			children = (
-				F4B36C151FFDD8020053DEEF /* EmptyView.h */,
-				F4B36C161FFDD8020053DEEF /* EmptyView.m */,
-				F4B36C091FFDD79A0053DEEF /* Main.storyboard */,
-				F4B36BFC1FFDD7990053DEEF /* MembersFilmViewController.h */,
-				F4B36C041FFDD79A0053DEEF /* MembersFilmViewController.m */,
 				F4B36C071FFDD79A0053DEEF /* SegmentViewController.h */,
 				F4B36C081FFDD79A0053DEEF /* SegmentViewController.m */,
+				F4B36BFC1FFDD7990053DEEF /* MembersFilmViewController.h */,
+				F4B36C041FFDD79A0053DEEF /* MembersFilmViewController.m */,
+				F4B36C151FFDD8020053DEEF /* EmptyView.h */,
+				F4B36C161FFDD8020053DEEF /* EmptyView.m */,
 				F4B36C051FFDD79A0053DEEF /* VideoPurchaseViewController.h */,
 				F4B36BFB1FFDD7990053DEEF /* VideoPurchaseViewController.m */,
 				F4B36C0A1FFDD79A0053DEEF /* WCLRecordProgressView */,
 				F4B36BFD1FFDD79A0053DEEF /* WCLRecordVideo */,
 				F4B36BFA1FFDD7990053DEEF /* WCLRecordVideoVC.h */,
 				F4B36C061FFDD79A0053DEEF /* WCLRecordVideoVC.m */,
+				F4B36C091FFDD79A0053DEEF /* Main.storyboard */,
 			);
 			path = MemberFilm;
 			sourceTree = "<group>";
@@ -1079,6 +1138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F47DA8EB200357CF002128CC /* AccomViewController.m in Sources */,
+				F47DA8EA200357CF002128CC /* AccomentCategoryView.m in Sources */,
 				F442E8781F15AD3200FDEEEF /* AppDelegate.m in Sources */,
 				F47791EC1FFC6C54002E24D4 /* SSSearchBar.m in Sources */,
 				F41073C41F50047B005BD980 /* NSAttributedString+Additions.m in Sources */,
@@ -1092,6 +1153,8 @@
 				F4B36BD61FFDD5C40053DEEF /* BAActionSheet.m in Sources */,
 				F430EA111F51198C003873DD /* UITableView+Additions.m in Sources */,
 				F431B9E71FEDFBF9003EDF8C /* ViewController.m in Sources */,
+				F47DA8ED200357CF002128CC /* AcLivingViewController.m in Sources */,
+				F47DA8F0200357CF002128CC /* AcTwoViewController.m in Sources */,
 				F41073C71F500A3F005BD980 /* UIViewController+AddChildVC.m in Sources */,
 				F4B36BDA1FFDD5C40053DEEF /* UIView+BAAnimation.m in Sources */,
 				F4B36BC21FFDD4B40053DEEF /* RuralAllViewController.m in Sources */,
@@ -1100,6 +1163,7 @@
 				F47791EB1FFC6C54002E24D4 /* NHRightTableViewCell.m in Sources */,
 				F4B36BD71FFDD5C40053DEEF /* BAActionSheetCell.m in Sources */,
 				F4B36BC71FFDD4B40053DEEF /* TagView.m in Sources */,
+				F47DA8EC200357CF002128CC /* AcFoodViewController.m in Sources */,
 				F41073C11F500086005BD980 /* NSObject+Additions.m in Sources */,
 				F47FB78D1F56B51600D1C350 /* FilterView.m in Sources */,
 				F4B36C141FFDD79A0053DEEF /* WCLRecordProgressView.m in Sources */,
@@ -1109,12 +1173,14 @@
 				F47791EA1FFC6C54002E24D4 /* NHLeftTableViewCell.m in Sources */,
 				F4B36C121FFDD79A0053DEEF /* SegmentViewController.m in Sources */,
 				F4F791691F57B5F200D82F84 /* ListViewCell.m in Sources */,
+				F47DA8EE200357CF002128CC /* AcOneViewController.m in Sources */,
 				F47275711F53FA330069322F /* DemoVC1.m in Sources */,
 				F4D5ABF91F34554900534637 /* HomeModel.m in Sources */,
 				F4B36C0E1FFDD79A0053DEEF /* WCLRecordEncoder.m in Sources */,
 				F47791E81FFC6C54002E24D4 /* HNInFoHeadView.m in Sources */,
 				F42473D51F59020A009D0EBE /* DemoVCMager.m in Sources */,
 				F4B36BD91FFDD5C40053DEEF /* BAAlert.m in Sources */,
+				F47DA8EF200357CF002128CC /* AcThreeViewController.m in Sources */,
 				F478574D1F5F8DA200D05F34 /* BaseModel.m in Sources */,
 				F47275721F53FA330069322F /* ContentShowView.m in Sources */,
 				F41073BE1F4FFFCF005BD980 /* NSArray+Additions.m in Sources */,

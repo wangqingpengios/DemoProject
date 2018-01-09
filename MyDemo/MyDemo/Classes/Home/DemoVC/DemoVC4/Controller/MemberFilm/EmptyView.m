@@ -52,7 +52,7 @@
     [self.actionBtn setImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
     [self addSubview:self.actionBtn];
     [self.actionBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.equalTo(self).offset(-120);
+        make.bottom.equalTo(self).offset(-220);
         make.centerX.equalTo(self);
         make.width.mas_equalTo(180);
         make.height.mas_equalTo(40);

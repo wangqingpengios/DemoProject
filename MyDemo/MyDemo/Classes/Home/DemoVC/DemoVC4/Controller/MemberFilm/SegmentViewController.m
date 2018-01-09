@@ -35,13 +35,27 @@
 - (void)setupUI {
     self.view.backgroundColor = [UIColor whiteColor];
     self.segmentC = [[UISegmentedControl alloc] initWithItems:@[@"会员随拍",@"视频购"]];
-    self.navigationItem.titleView = self.segmentC;
+//    self.navigationItem.titleView = self.segmentC;
+    [self.navigationController.navigationBar addSubview:self.segmentC];
     self.segmentC.tintColor = UIColorFromRGB(0x56d176);
     [self.segmentC setWidth:100 forSegmentAtIndex:0];
     [self.segmentC setWidth:100 forSegmentAtIndex:1];
     self.segmentC.selectedSegmentIndex = 0;
     [_segmentC addTarget:self action:@selector(clickSegmentIndex:) forControlEvents:UIControlEventValueChanged];
+    [self.segmentC mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.centerY.mas_equalTo(self.navigationController.navigationBar);
+    }];
     self.scrollView.hidden = NO;
+    
+    
+    //NavTtemleft 取消
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"nav_back"] style:UIBarButtonItemStylePlain target:self action:@selector(clikcBackIcon)];
+    self.navigationItem.leftBarButtonItem = backItem;
+}
+- (void)clikcBackIcon {
+    [self.segmentC removeFromSuperview];
+    self.segmentC = nil;
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 #pragma mark - ScrollViewDelegate

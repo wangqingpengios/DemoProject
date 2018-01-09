@@ -8,7 +8,7 @@
 
 #import "RuralSearchViewController.h"
 
-@interface RuralSearchViewController ()<UITableViewDataSource,UITableViewDelegate>
+@interface RuralSearchViewController ()
 
 @end
 

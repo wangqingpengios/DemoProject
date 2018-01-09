@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface VideoPurchaseViewController : UIViewController
-
+@property (nonatomic, strong) NSArray *fileArr;
+@property (nonatomic, strong) UIImage *iamge;
 @end

@@ -8,6 +8,16 @@
 		<true/>
 	</dict>
 	<key>CFBundleDevelopmentRegion</key>
+	<string>APP需要您的访问权限</string>
+	<key>NSCameraUsageDescription</key>
+	<string>app需要访问您的相机</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>app需要使用你的麦克风</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>app需要获取您的相册</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>app需要您的同意,才能添加照片</string>
+	<key>CFBundleDevelopmentRegion - 2</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
 	<string>AlanDemo</string>

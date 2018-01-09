@@ -12,6 +12,7 @@
 #import "WCLRecordProgressView.h"
 #import <MobileCoreServices/MobileCoreServices.h>
 #import <MediaPlayer/MediaPlayer.h>
+#import "VideoPurchaseViewController.h"
 
 typedef NS_ENUM(NSUInteger, UploadVieoStyle) {
     VideoRecord = 0,
@@ -67,6 +68,7 @@ typedef NS_ENUM(NSUInteger, UploadVieoStyle) {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.allowRecord = YES;
+    
 }
 
 //根据状态调整view的展示情况
@@ -110,6 +112,7 @@ typedef NS_ENUM(NSUInteger, UploadVieoStyle) {
 #pragma mark - Apple相册选择代理
 //选择了某个照片的回调函数/代理回调
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
+    [picker dismissViewControllerAnimated:YES completion:nil];
     if ([[info objectForKey:UIImagePickerControllerMediaType] isEqualToString:(NSString*)kUTTypeMovie]) {
         //获取视频的名称
         NSString * videoPath=[NSString stringWithFormat:@"%@",[info objectForKey:UIImagePickerControllerMediaURL]];
@@ -138,8 +141,10 @@ typedef NS_ENUM(NSUInteger, UploadVieoStyle) {
                         }
                         [weakSelf presentViewController:[UIViewController new] animated:YES completion:nil];
                     }];
+                    
                 }];
-            
+                
+
                 
             }];
         }
@@ -175,6 +180,7 @@ typedef NS_ENUM(NSUInteger, UploadVieoStyle) {
 #pragma mark - 各种点击事件
 //返回点击事件
 - (IBAction)dismissAction:(id)sender {
+//    [self.navigationController popViewControllerAnimated::YES];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
@@ -205,22 +211,29 @@ typedef NS_ENUM(NSUInteger, UploadVieoStyle) {
 
 //录制下一步点击事件
 - (IBAction)recordNextAction:(id)sender {
+
     if (_recordEngine.videoPath.length > 0) {
         __weak typeof(self) weakSelf = self;
         [self.recordEngine stopCaptureHandler:^(UIImage *movieImage) {
             
-//            [weakSelf dismissViewControllerAnimated:YES completion:^(){
-//                if (weakSelf.delegate&&[weakSelf.delegate respondsToSelector:@selector(selectFile:fileUrl:fileName:)]) {
-//                    [weakSelf.delegate selectFile:movieImage fileUrl:weakSelf.recordEngine.videoPath fileName:weakSelf.recordEngine.videoName];
+            
+            [weakSelf dismissViewControllerAnimated:YES completion:^(){
+                if (weakSelf.delegate&&[weakSelf.delegate respondsToSelector:@selector(selectFile:fileUrl:fileName:)]) {
+                    [weakSelf.delegate selectFile:movieImage fileUrl:weakSelf.recordEngine.videoPath fileName:weakSelf.recordEngine.videoName];
+                }
+            }];
+//            VideoPurchaseViewController *vc = [VideoPurchaseViewController new];
+//            UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+//             [weakSelf.recordEngine movieToImageHandler:^(UIImage *movieImage) {
+//                 vc.iamge = movieImage;
+//             }];
+//            [self dismissViewControllerAnimated:YES completion:^{
+//
+//                if (weakSelf.recordEngine.videoPath) {
+//                    [self presentViewController:nav animated:YES completion:nil];
 //                }
 //            }];
-//            if ([weakSelf.delegate respondsToSelector:@selector(selectFile:fileUrl:fileName:)]) {
-//                [self.delegate selectFile:movieImage fileUrl:weakSelf.recordEngine.videoPath fileName:weakSelf.recordEngine.videoName];
-//            }
-//            [self.navigationController pushViewController:[UIViewController new] animated:YES];
-          NSString *str =  [weakSelf.recordEngine getVideoCacheAllPath:@"1"];
-            NSLog(@"%@--%@",weakSelf.recordEngine.videoPath,weakSelf.recordEngine.videoName);
-            NSLog(@"%@-str",str);
+
         }];
     }else {
         NSLog(@"请先录制视频~");
@@ -265,5 +278,10 @@ typedef NS_ENUM(NSUInteger, UploadVieoStyle) {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+- (NSArray *)fileArray {
+    if (!_fileArray) {
+        _fileArray = [NSArray array];
+    }
+    return _fileArray;
+}
 @end
